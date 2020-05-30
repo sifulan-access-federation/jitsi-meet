@@ -825,7 +825,7 @@
             "join": "Tap to join",
             "roomname": "Enter room name"
         },
-        "appDescription": "Go ahead, video chat with the whole team. In fact, invite everyone you know. {{app}} is a fully encrypted, 100% open source video conferencing solution that you can use all day, every day, for free — with no account needed.",
+        "appDescription": "{{app}} is powered by Jitsi Meet, a fully encrypted, 100% open source video conferencing solution. Feel free to use this service 24/7 courtesy of Birunisoft PLT, the operator of SIFULAN Malaysian Access Federation (https://sifulan.my).<br><br>With {{app}} you can: <ul><li>Share your desktop, presentations, and more</li><li>Invite users to a conference via a simple, custom URL</li><li>Edit documents together using Etherpad</li><li>Pick fun meeting URLs for every meeting</li><li>Trade messages and emojis while you video conference, with integrated chat.</li></ul><br><br><b>Disclaimer:</b> {{app}} service is offered as is and by starting a meeting, one agrees to completely hold SIFULAN Malaysian Access Federation and Birunisoft PLT harmless against any liability. We reserve the right to implement access control for using this service the future.",
         "audioVideoSwitch": {
             "audio": "Voice",
             "video": "Video"
