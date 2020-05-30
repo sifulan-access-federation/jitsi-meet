@@ -3,7 +3,7 @@
 import React from 'react';
 
 import { isMobileBrowser } from '../../base/environment/utils';
-import { translate } from '../../base/i18n';
+import { translate, translateToHTML } from '../../base/i18n';
 import { Icon, IconWarning } from '../../base/icons';
 import { Watermarks } from '../../base/react';
 import { connect } from '../../base/redux';
@@ -189,8 +189,7 @@ class WelcomePage extends AbstractWelcomePage {
                             { t('welcomepage.title') }
                         </h1>
                         <p className = 'header-text-description'>
-                            { t('welcomepage.appDescription',
-                                { app: APP_NAME }) }
+                            { translateToHTML(t,'welcomepage.appDescription', { app: APP_NAME }) }
                         </p>
                     </div>
                     <div id = 'enter_room'>
